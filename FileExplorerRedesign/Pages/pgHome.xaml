@@ -1,0 +1,146 @@
+﻿<Page x:Class="FileExplorerRedesign.Pages.pgHome"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:FileExplorerRedesign.Pages"
+      xmlns:cc="clr-namespace:FileExplorerRedesign.Custom_Controls"
+      xmlns:prop="clr-namespace:FileExplorerRedesign.Properties"
+      xmlns:views="clr-namespace:FileExplorerRedesign.Views"
+      xmlns:viewmodel="clr-namespace:FileExplorerRedesign.ViewModels"
+      xmlns:b="http://schemas.microsoft.com/xaml/behaviors"
+      mc:Ignorable="d" 
+      d:DesignHeight="592" d:DesignWidth="945"
+      Title="pgHome">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="165"/>
+            <RowDefinition Height="427*"/>
+        </Grid.RowDefinitions>
+
+        <Grid Height="166" VerticalAlignment="Center">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Grid>
+                <TextBlock Text="Folders" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20 15" Foreground="White" FontSize="15" FontWeight="Bold"/>
+                <Border
+                    Background="#33121212"
+                    x:Name="btndownload"
+                    MouseDown="btndownload_MouseDown"
+                    CornerRadius="7"
+                    ToolTip="Downloads"
+                    Margin="20 0 20 20"
+                    Height="100"
+                    VerticalAlignment="Bottom">
+                    <Grid Margin="0,0,4,0">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="13*"/>
+                            <RowDefinition Height="7*"/>
+                        </Grid.RowDefinitions>
+                        <Grid Grid.Row="0">
+                            <Path Data="{StaticResource DownloadsFolder}" Fill="#FF2779FF" Height="30" Stretch="Uniform"/>
+                        </Grid>
+                        <Grid Grid.Row="1">
+                            <TextBlock Grid.Row="0" 
+                                    HorizontalAlignment="Center" VerticalAlignment="Top" 
+                                    Margin="10 0" Text="Downloads" Foreground="White" 
+                                    FontWeight="Bold" FontSize="15" TextTrimming="WordEllipsis" TextWrapping="Wrap"/>
+                        </Grid>
+                    </Grid>
+
+                </Border>
+            </Grid>
+            
+
+            <Border Grid.Column="1"
+                    Background="#33121212"
+                    CornerRadius="7"
+                    Margin="20 0 20 20"
+                    ToolTip="Images"
+                    VerticalAlignment="Bottom"
+                    Height="100">
+                <Grid Margin="0,0,4,0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="13*"/>
+                        <RowDefinition Height="7*"/>
+                    </Grid.RowDefinitions>
+                    <Grid Grid.Row="0">
+                        <Image Source="{StaticResource pctimages}" Height="30" Stretch="Uniform"/>
+                    </Grid>
+                    <Grid Grid.Row="1">
+                        <TextBlock Grid.Row="0" 
+                                    HorizontalAlignment="Center" VerticalAlignment="Top" 
+                                    Margin="10 0" Text="Images" Foreground="White" 
+                                    FontWeight="Bold" FontSize="15" TextTrimming="WordEllipsis" TextWrapping="Wrap"/>
+                    </Grid>
+                </Grid>
+
+            </Border>
+
+            <Border Grid.Column="2"
+                    Background="#33121212"
+                    CornerRadius="7"
+                    Margin="20 0 20 20"
+                    ToolTip="Music"
+                    VerticalAlignment="Bottom"
+                    Height="100">
+                <Grid Margin="0,0,4,0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="13*"/>
+                        <RowDefinition Height="7*"/>
+                    </Grid.RowDefinitions>
+                    <Grid Grid.Row="0">
+                        <Image Source="{StaticResource icomusic}" Height="30" Stretch="Uniform"/>
+                    </Grid>
+                    <Grid Grid.Row="1">
+                        <TextBlock Grid.Row="0" 
+                                    HorizontalAlignment="Center" VerticalAlignment="Top" 
+                                    Margin="10 0" Text="Music" Foreground="White" 
+                                    FontWeight="Bold" FontSize="15" TextTrimming="WordEllipsis" TextWrapping="Wrap"/>
+                    </Grid>
+                </Grid>
+
+            </Border>
+
+            <Border Grid.Column="3"
+                    Background="#33121212"
+                    CornerRadius="7"
+                    Margin="20 0 20 20"
+                    ToolTip="Videos"
+                    VerticalAlignment="Bottom"
+                    Height="100">
+                <Grid Margin="0,0,4,0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="13*"/>
+                        <RowDefinition Height="7*"/>
+                    </Grid.RowDefinitions>
+                    <Grid Grid.Row="0">
+                        <Image Source="{StaticResource pathvideo}" Height="30" Stretch="Uniform"/>
+                    </Grid>
+                    <Grid Grid.Row="1">
+                        <TextBlock Grid.Row="0" 
+                                    HorizontalAlignment="Center" VerticalAlignment="Top" 
+                                    Margin="10 0" Text="Video" Foreground="White" 
+                                    FontWeight="Bold" FontSize="15" TextTrimming="WordEllipsis" TextWrapping="Wrap"/>
+                    </Grid>
+                </Grid>
+
+            </Border>
+        </Grid>
+        <Grid Grid.Row="1">
+            <TextBlock Text="Recent Files" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20 15" Foreground="White" FontSize="15" FontWeight="Bold"/>
+            <Grid Margin="0,40,0,0">
+                <TextBlock Text="No Recent Files" Foreground="Gray" HorizontalAlignment="Center" VerticalAlignment="Center" FontWeight="Bold" FontSize="18"/>
+
+            </Grid>
+        </Grid>
+
+    </Grid>
+</Page>
+
+
