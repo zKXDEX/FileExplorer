@@ -25,15 +25,23 @@ File Explorer, previously known as Windows Explorer, is a File manager applicati
 
 # Screenshot
 
-![imagen](https://user-images.githubusercontent.com/66271780/175242788-5c0eb30e-d973-4874-8d45-916ece0f9781.png)
+![imagen](https://user-images.githubusercontent.com/66271780/175243059-dcb30db7-f533-4153-9e42-6b5a6575b2f4.png)
 
-![imagen](https://user-images.githubusercontent.com/66271780/175242812-1095842c-55bc-4948-a08a-5f49a6d6018b.png)
+![imagen](https://user-images.githubusercontent.com/66271780/175243087-252b9928-229f-4263-8810-aa59f77467cc.png)
 
-![imagen](https://user-images.githubusercontent.com/66271780/175242820-e86685a7-0087-4781-94e3-303b69866ace.png)
+![imagen](https://user-images.githubusercontent.com/66271780/175243121-519213af-fdc7-462f-b506-0d9296ea8cf0.png)
 
-![imagen](https://user-images.githubusercontent.com/66271780/175242843-4b1ded70-bc06-4c39-b073-cf0cf8e15963.png)
+![imagen](https://user-images.githubusercontent.com/66271780/175243183-d10d0ca1-b879-4846-88b7-30f462e5d2a4.png)
 
-![imagen](https://user-images.githubusercontent.com/66271780/175242864-a0e45493-c07d-4d5f-aee2-c5ab9dbeb6f6.png)
+![imagen](https://user-images.githubusercontent.com/66271780/175243226-871be9f4-0f48-4590-8d59-94538d92bd07.png)
 
-![imagen](https://user-images.githubusercontent.com/66271780/175242888-f569987e-ce56-4d44-a59c-3a968c8f5998.png)
+![imagen](https://user-images.githubusercontent.com/66271780/175243265-9a9ae048-9832-4c95-b318-61dc5f43b215.png)
+
+![imagen](https://user-images.githubusercontent.com/66271780/175243362-cdbbc4fd-77f5-41ba-a814-f04c5b27272f.png)
+
+![imagen](https://user-images.githubusercontent.com/66271780/175243464-f2c5fdd0-5e1a-4ae3-9d48-75c44a31ba2c.png)
+
+
+
+
 
